@@ -14,13 +14,12 @@ console.log(3 ** 5); //exponent/power
 //Declaring variables, giving them starting values
 let customerName= `George`;
 let bitCoin = 0;  
-
+//Hi George, your balance is: 0
 console.log (`Hi ${customerName}, your balance is: 0 ${bitCoin}`);
 
-
-bitCoin = bitCoin + 4; // Assigning a new value to a variable
-//
-console.log 
+//Assigning a new value to a variable
+bitCoin = bitCoin + 4; 
+console.log (`Hi ${customerName}, your balance is: ${bitCoin}`);
 
 console.log (`Hi ${customerName}, your balance is: ${bitCoin}`);
 bitCoin = bitCoin -1;
@@ -36,7 +35,40 @@ bitCoin = bitCoin -1;
 //- Do not capitalize first letter of variable name
 
 // Variable Name: Don't Use special chars, make clear
-let geoLocation =``;  // ✅ Camel cased, easy to read, no conflicts
-let location=``      // ❌ Will conflict with the browser's url bar
-let lctn=``;        //  ❌ Not Bad, but not super clear either
-let l=`; `         //   ❌Terrible. Far, too short and non-descript
+//let geoLocation =``;  // ✅ Camel cased, easy to read, no conflicts
+//let location=``;    // ❌ Will conflict with the browser's url bar
+//let lctn=``;        //  ❌ Not Bad, but not super clear either
+//let l=``;       //   ❌Terrible. Far, too short and non-descript
+
+//Exercise 1:
+
+let jobTitle= `Rocco`;
+let geoLocation= `Brampton`;
+let annSalary= `$100K`;
+let companyName= `Amazon`;
+
+console.log(`You will be a ${jobTitle} in ${geoLocation} making ${annSalary} for ${companyName}`);
+
+//Exercise 2:
+let birthYear=`1920`
+let presentYear=`2019`;
+let age = (2019-1920);
+console.log(`They are ${age} years old`);
+
+//Exercise 3:
+let currentAge=11;
+let maxAge=51;
+let foodPerDay= (6);
+foodPerDay= (40 + 365);
+console.log(`Intitially, you will need ${foodPerDay} ounces of food for you the last the old age of ${maxAge}`)
+//Exercise 4: 
+let radius= `5`;
+let diameter=`8`;
+let circumference=(3.14*12);
+let area= (5*5*3.14)
+console.log (`The area of the circle is ${circumference}`)
+//Exercise 5:
+let fahrenheit= `74`;
+let celcius= `37`
+fahrenheit=celcius 
+

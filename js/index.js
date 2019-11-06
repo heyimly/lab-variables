@@ -22,12 +22,12 @@ bitCoin = bitCoin + 4;
 console.log (`Hi ${customerName}, your balance is: ${bitCoin}`);
 
 console.log (`Hi ${customerName}, your balance is: ${bitCoin}`);
-bitCoin = bitCoin - 1;
+bitCoin = bitCoin - 5;
 
 
 // Lab Assignment
 
-//Variables can be defined with keywords: car, let, const,
+//Variables can be defined with keywords: var, let, const,
 // Variable name:
 // - Don't start with a number
 //- Use CamelCased Words to show seperation (uppercase firs tletters)

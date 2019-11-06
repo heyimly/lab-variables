@@ -1,5 +1,5 @@
 // String is a series of characters Quotes become characters
-console.log(`im baby🥺`);
+console.log(`im baby`);
 // Number is a number ... -> Can come in different forms (+)(-)(0.1)
 console.log(3 + 5); // add
 console.log(3 - 5); // subtract 
@@ -12,8 +12,8 @@ console.log(3 ** 5); //exponent/power
 // logical error 
 
 //Declaring variables, giving them starting values
-let customerName= `George`;
-let bitCoin = 0;  
+let customerName= `im baby`;
+let bitCoin = 8;  
 //Hi George, your balance is: 0
 console.log (`Hi ${customerName}, your balance is: 0 ${bitCoin}`);
 
@@ -22,7 +22,7 @@ bitCoin = bitCoin + 4;
 console.log (`Hi ${customerName}, your balance is: ${bitCoin}`);
 
 console.log (`Hi ${customerName}, your balance is: ${bitCoin}`);
-bitCoin = bitCoin -1;
+bitCoin = bitCoin - 1;
 
 
 // Lab Assignment

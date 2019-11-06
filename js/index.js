@@ -29,7 +29,6 @@ bitCoin = bitCoin -1;
 
 //Variables can be defined with keywords: car, let, const,
 // Variable name:
-// -Don't use special chars (_and $ are possible though)
 // - Don't start with a number
 //- Use CamelCased Words to show seperation (uppercase firs tletters)
 //- Do not capitalize first letter of variable name
@@ -69,6 +68,6 @@ let area= (5*5*3.14)
 console.log (`The area of the circle is ${circumference}`)
 //Exercise 5:
 let fahrenheit= `74`;
-let celcius= `37`
+let celcius= `37`;
 fahrenheit=celcius 
 

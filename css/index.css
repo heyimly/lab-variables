@@ -4,21 +4,3 @@ body {
 }
 
 
-.b-divider {
-margin-top: 13px;
-}
-.cart-b {
-  font: 1em 'Roboto Mono', monospace;
-  background-color: #ccc;
-  width: 3em;
-  height: 3em;
-  border: 3px solid white;
-  border-radius: 1.5em;
-  box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.3) ;  
-}
-/*.cart-b:hover {
-
-  transform: translate(-0.4rem, -0.4rem);
-}
-*/
-

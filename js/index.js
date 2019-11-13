@@ -1,7 +1,7 @@
 // var or const 
 let itemsInCart =0;
 
-function addAnItemToTheCart(qty) { 
+function addAnItemToTheCart(qty, user) { 
   //inside function
 
     itemsInCart +=  qty;
@@ -11,8 +11,8 @@ function addAnItemToTheCart(qty) {
 
 
 
-addAnItemToTheCart(1);
-addAnItemToTheCart(2);
+addAnItemToTheCart(1, name);
+addAnItemToTheCart(2, name);
 // ^this line executes
 //ouutside fuction
 console.log (itemsInCart);

@@ -7,9 +7,12 @@ console.log(3 * 5); // multiply
 console.log(3 / 5); // divide
 console.log(3 % 5); //modulus
 console.log(3 ** 5); //exponent/power
+//
 
-//syntax error
-// logical error 
+
+
+//syntax error 
+//logical error 
 
 //Declaring variables, giving them starting values
 let customerName= `im baby`;
